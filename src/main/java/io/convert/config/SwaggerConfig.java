@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI customAPI(){
-        return new OpenAPI().info(new Info().title("Regex Convert").version("1.0.0")
+        return new OpenAPI().info(new Info().title("Regex Convert v2").version("1.0.0")
                 .license(new License().name("MIT License").url("https://opensource.org/license/mit/"))
         );
     }
